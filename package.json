@@ -2,8 +2,9 @@
   "name": "StarterKit",
   "version": "1.0.0",
   "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "react-native-scripts start",
     "pretest": "./node_modules/.bin/eslint -c .eslintrc --ext .js src",
     "test": "jest"
   },
@@ -19,14 +20,17 @@
     "verbose": true
   },
   "dependencies": {
+    "expo": "^23.0.6",
     "firebase": "^4.1.2",
+    "jest-react-native": "^18.0.0",
     "prop-types": "^15.5.10",
-    "react": "16.0.0-alpha.6",
-    "react-native": "0.44.3",
+    "react": "^15.0.0",
+    "react-native": "^0.50.4",
     "react-native-dotenv": "0.1.0",
     "react-native-elements": "^0.15.0",
     "react-native-google-analytics-bridge": "^5.0.0",
     "react-native-router-flux": "3.39.2",
+    "react-native-scripts": "^1.8.1",
     "react-native-side-menu": "^1.0.2",
     "react-native-tab-view": "0.0.67",
     "react-native-vector-icons": "^4.2.0",

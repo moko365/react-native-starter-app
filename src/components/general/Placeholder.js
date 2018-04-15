@@ -8,7 +8,7 @@
  */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View } from 'react-native';
+import { View } from 'react-native'; // named import
 
 // Consts and Libs
 import { AppStyles } from '@theme/';
@@ -24,7 +24,7 @@ const Placeholder = ({ text }) => (
 );
 
 Placeholder.propTypes = { text: PropTypes.string };
-Placeholder.defaultProps = { text: 'Coming soon...' };
+Placeholder.defaultProps = { text: 'Hello...' };
 Placeholder.componentName = 'Placeholder';
 
 /* Export Component ==================================================================== */
